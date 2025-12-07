@@ -531,7 +531,7 @@ elif page == "RUN ANALYSIS":
     <h3>Upload Your Data for Gold Anomaly Detection</h3>
     <p style='line-height: 1.8;'>
     Upload your stacked features raster (TIF) and gold occurrences (GPKG). The model will train fresh 
-    on your data and generate comprehensive analysis, predictions and visualizations.
+    on your data and generate prospectivity maps, analysis and visualizations for you..
     </p>
     </div>
     """, unsafe_allow_html=True)
@@ -558,7 +558,7 @@ elif page == "RUN ANALYSIS":
         )
         
         if uploaded_tif:
-            st.success(f"✅ Uploaded: {uploaded_tif.name} ({uploaded_tif.size / (1024*1024):.2f} MB)")
+            st.success(f"Uploaded: {uploaded_tif.name} ({uploaded_tif.size / (1024*1024):.2f} MB)")
     
     with col2:
         st.markdown("### Upload Gold Occurrences (GPKG)")
@@ -569,12 +569,12 @@ elif page == "RUN ANALYSIS":
         )
         
         if uploaded_gpkg:
-            st.success(f"✅ Uploaded: {uploaded_gpkg.name} ({uploaded_gpkg.size / 1024:.2f} KB)")
+            st.success(f"Uploaded: {uploaded_gpkg.name} ({uploaded_gpkg.size / 1024:.2f} KB)")
     
     st.markdown("---")
     
     if uploaded_tif and uploaded_gpkg:
-        st.success("✅ Both files uploaded successfully!")
+        st.success("Both files uploaded successfully!")
         
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
@@ -610,7 +610,7 @@ elif page == "RUN ANALYSIS":
                         os.unlink(tif_path)
                         os.unlink(gpkg_path)
                         
-                        st.success("✅ Analysis Complete!")
+                        st.success("Analysis Complete!")
                         st.balloons()
                         
                     except Exception as e:
