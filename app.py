@@ -245,7 +245,7 @@ elif page == "ABOUT GEO GUIDE":
 
 # CASE STUDY PAGE
 elif page == "CASE STUDY":
-    st.markdown("<h1>📍 Case Study: Buhweju-Mashonga, Uganda</h1>", unsafe_allow_html=True)
+    st.markdown("<h1>Case Study: Buhweju-Mashonga, Uganda</h1>", unsafe_allow_html=True)
     
     st.markdown("""
     <div class='info-card'>
