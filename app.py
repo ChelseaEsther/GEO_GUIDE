@@ -618,7 +618,7 @@ elif page == "RUN ANALYSIS":
                         st.exception(e)
     
     else:
-        st.warning("⚠️ Please upload both files to run analysis")
+        st.warning("Please upload both files to run analysis")
     
     if st.session_state.prediction_results is not None:
         results = st.session_state.prediction_results
