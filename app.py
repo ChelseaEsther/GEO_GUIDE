@@ -164,7 +164,7 @@ if page == "HOME":
         """, unsafe_allow_html=True)
     
     st.markdown("---")
-    st.markdown("<h2>📍 Study Area: Buhweju-Mashonga, Uganda</h2>", unsafe_allow_html=True)
+    st.markdown("<h2>Study Area: Buhweju-Mashonga, Uganda</h2>", unsafe_allow_html=True)
     
     col1, col2 = st.columns([3, 2])
     
