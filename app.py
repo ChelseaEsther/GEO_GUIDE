@@ -278,7 +278,7 @@ elif page == "CASE STUDY":
     with col2:
         st.markdown("""
         <div class='info-card'>
-        <h3 style='color: #103713;'>⛰️ Elevation Data</h3>
+        <h3 style='color: #103713;'>Elevation Data</h3>
         <p><b>Source:</b> SRTM Digital Elevation Model of Uganda from RCMRD GMES and Africa GeoPortal</p>
         <ul style='line-height: 1.8;'>
             <li><b>Resolution:</b> 30m</li>
