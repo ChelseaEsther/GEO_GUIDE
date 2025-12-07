@@ -750,7 +750,7 @@ st.markdown("---")
 st.markdown("""
 <div style='background-color: #103713; padding: 2rem; border-radius: 10px; margin-top: 3rem;'>
     <div style='text-align: center; color: white;'>
-        <h3 style='color: #fcfff5;'>🌍 GEO GUIDE UGANDA</h3>
+        <h3 style='color: #fcfff5;'>GEO GUIDE UGANDA</h3>
         <p style='color: #fcfff5; font-size: 1.1rem;'>
             AI-Powered Mineral Prediction System<br>
             Kampala District, Uganda
