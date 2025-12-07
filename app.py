@@ -758,7 +758,7 @@ st.markdown("""
         </p>
         <hr style='border: 1px solid #628b35; margin: 1.5rem 0;'>
         <p style='color: #e2dbd0; font-size: 0.9rem;'>
-            <strong>⚠️ Disclaimer:</strong> This is a screening tool. Validate results through 
+            <strong>Disclaimer:</strong> This is a screening tool. Validate results through 
             field work, geochemical sampling, and professional geological consultation.
         </p>
         <p style='color: #fcfff5; margin-top: 1rem;'>
