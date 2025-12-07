@@ -11,7 +11,6 @@ import matplotlib.pyplot as plt
 # Page configuration
 st.set_page_config(
     page_title="GEO GUIDE - AI powered Gold Anomaly Detection System",
-    page_icon="🌍",
     layout="wide",
     initial_sidebar_state="expanded"
 )
