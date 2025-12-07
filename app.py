@@ -763,7 +763,7 @@ st.markdown("""
         </p>
         <p style='color: #fcfff5; margin-top: 1rem;'>
             © 2025 Esther Chelsea | GEO GUIDE AI PROJECT<br>
-            Built with Love❤️ for Sustainable Mineral Exploration
+            Built for Sustainable Mineral Exploration
         </p>
     </div>
 </div>
