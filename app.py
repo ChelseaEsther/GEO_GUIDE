@@ -610,7 +610,6 @@ elif page == "RUN ANALYSIS":
                         os.unlink(gpkg_path)
                         
                         st.success("Analysis Complete!")
-                        st.balloons()
                         
                     except Exception as e:
                         st.error(f"❌ Error: {str(e)}")
