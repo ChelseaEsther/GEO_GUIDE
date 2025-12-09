@@ -17,7 +17,7 @@ class GoldAnomalyDetector:
     
     def __init__(self):
         """Initialize with the 8 required features and band mapping"""
-        # HARDCODED BAND ORDER (based on your stacking order)
+        # HARDCODED BAND ORDER (based on my stacking order)
         self.band_order = [
             'B2_float32',                    # 1
             'B3_float32',                    # 2
@@ -59,7 +59,7 @@ class GoldAnomalyDetector:
             'NDNS'                           # 38  ← IMPORTANT!
         ]
         
-        # The 8 important features we need
+        # The 8 important features needed
         self.important_bands = [
             'hillshade',      # Band 17 (index 16)
             'Clay_Index',     # Band 29 (index 28)
